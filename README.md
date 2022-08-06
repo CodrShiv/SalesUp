@@ -1,4 +1,4 @@
-![SalesUp Logo](./public/assets/logo.svg "SalesUp Logo")
+![SalesUp Logo](./client/public/assets/logo.svg "SalesUp Logo")
 
 <center>
 
