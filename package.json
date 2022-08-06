@@ -1,0 +1,14 @@
+{
+  "name": "salesup",
+  "version": "1.0.0",
+  "description": "Influencer Marketing - Made Easy!",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SalesUp"
+  ],
+  "author": "Shivansh Sahu",
+  "license": "ISC"
+}
