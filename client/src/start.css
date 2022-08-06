@@ -1,92 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Syne', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  font-family: "Syne", sans-serif !important;
 }
-body, html, .gradient_anim {
-    min-height: 100vh;
+body,
+html,
+.gradient_anim {
+  min-height: 100vh;
 }
 .gradient_anim {
-    background: linear-gradient(180deg, #7fc8d5, #2b6fa1);
-    background-size: 400% 400%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: linear-gradient(180deg, #7fc8d5, #2b6fa1);
+  background-size: 400% 400%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    -webkit-animation: gradient_anim 7s ease infinite;
-    -moz-animation: gradient_anim 7s ease infinite;
-    animation: gradient_anim 7s ease infinite;
+  -webkit-animation: gradient_anim 7s ease infinite;
+  -moz-animation: gradient_anim 7s ease infinite;
+  animation: gradient_anim 7s ease infinite;
 }
 
 @-webkit-keyframes gradient_anim {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
 }
 @-moz-keyframes gradient_anim {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
 }
 @keyframes gradient_anim {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
+  0% {
+    background-position: 52% 0%;
+  }
+  50% {
+    background-position: 49% 100%;
+  }
+  100% {
+    background-position: 52% 0%;
+  }
 }
 .center_block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #fff;
-    min-height: 75vh;
-    min-width: 65vw;
-    border-radius: 2.5rem;
-    padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  min-height: 75vh;
+  min-width: 65vw;
+  border-radius: 2.5rem;
+  padding: 1rem 0;
 }
-
+a {
+  text-decoration: none;
+}
 .branding {
-    font-size: 4.5rem;
-    font-weight: 500;
-    background: -webkit-linear-gradient(180deg, rgba(34,87,126,1) 0%, rgba(100,188,203,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 500;
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(34, 87, 126, 1) 0%,
+    rgba(100, 188, 203, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .sub_title {
-    font-weight: 400;
-    background: -webkit-linear-gradient(180deg, rgba(128,201,209,1) 0%, rgba(176,221,220,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(128, 201, 209, 1) 0%,
+    rgba(176, 221, 220, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .title {
-    color: #22577E;
+  color: #22577e;
 }
 .welcome_text {
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .opt_group {
-    margin: 2rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 .opt_or {
-    color: #BFE3E0;
-    font-size: 1rem;
-    font-weight: 500;
+  color: #bfe3e0;
+  font-size: 1rem;
+  font-weight: 500;
 }
 .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
-    min-width: 10rem !important;
-    border: .2rem solid #7fc8d5 !important;
-    border-top-left-radius: 1rem !important;
-    border-bottom-right-radius: 1rem !important; 
-    font-weight: 500 !important;
-    color: #2b6fa1 !important;
-    font-size: 1.25rem !important;
+  min-width: 10rem !important;
+  border: 0.2rem solid #7fc8d5 !important;
+  border-top-left-radius: 1rem !important;
+  border-bottom-right-radius: 1rem !important;
+  font-weight: 500 !important;
+  color: #2b6fa1 !important;
+  font-size: 1.25rem !important;
 }
