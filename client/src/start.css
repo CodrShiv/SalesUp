@@ -15,10 +15,9 @@ html,
   display: flex;
   align-items: center;
   justify-content: center;
-
-  -webkit-animation: gradient_anim 7s ease infinite;
-  -moz-animation: gradient_anim 7s ease infinite;
-  animation: gradient_anim 7s ease infinite;
+  -webkit-animation: gradient_anim 6s ease infinite;
+  -moz-animation: gradient_anim 6s ease infinite;
+  animation: gradient_anim 6s ease infinite;
 }
 
 @-webkit-keyframes gradient_anim {
@@ -65,6 +64,23 @@ html,
   border-radius: 2.5rem;
   padding: 1rem 0;
 }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+header .branding {
+  background: -webkit-linear-gradient(
+    180deg,
+    #bfe3e0 0%,
+    rgba(100, 188, 203, 1) 100%
+  );
+  margin-bottom: -1rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 a {
   text-decoration: none;
 }
@@ -120,4 +136,30 @@ a {
   font-weight: 500 !important;
   color: #2b6fa1 !important;
   font-size: 1.25rem !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.center_block.uncentered {
+  justify-content: flex-start;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.form input {
+  width: 20rem !important;
+} 
+.form > div {
+  margin: .5rem 0;
+}
+.form > .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background: linear-gradient(90deg, rgba(187,226,223,1) 0%, rgba(103,191,206,1) 100%);
+  border-top-left-radius: .65rem;
+  border-bottom-right-radius: .65rem;
+  margin-top: 2rem;
 }

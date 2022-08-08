@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./start.css";
-import Start from "./components/Start";
-import Company from "./components/Company";
-import Influencer from "./components/Influencer";
+import Start from "./pages/Start";
+import Company from "./pages/Company";
+import Influencer from "./pages/Influencer";
 const App = () => {
   return (
     <div>
